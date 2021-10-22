@@ -13,7 +13,7 @@ conn = sqlite3.connect('banco_acoes.db')
 df = pd.read_sql('SELECT * FROM acoes', con=conn)
 conn.close()
 
-df.drop(columns=['index'], inplace=True)
+df = df.drop(columns=['index'])
 df['Data'] = pd.to_datetime(df['Data'])
 
 
