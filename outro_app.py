@@ -1,14 +1,11 @@
 #Importar as bibliotecas
 import datetime
 import sqlite3
-
-import yfinance as yf
 import pandas as pd
 from datetime import date
 import streamlit as st
 import datetime as dt
 import numpy as np
-import plotly.graph_objs as go
 
 
 #Ler e tratar dados
