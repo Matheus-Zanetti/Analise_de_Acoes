@@ -1,0 +1,78 @@
+Código,Ação,Setor,Tipo,Site
+ABEV3,AMBEV S/A,Consumo não Cíclico / Bebidas / Cervejas e Refrigerantes,ON,http://ri.ambev.com.br
+AZUL4,AZUL,Bens Industriais / Transporte / Transporte Aéreo,PN N2,https://www.voeazul.com.br/
+B3SA3,B3,Financeiro e Outros / Serviços Financeiros Diversos / Serviços Financeiros Diversos,ON NM,http://www.b3.com.br/
+BBAS3,BANCO DO BRASIL,Financeiro e Outros / Intermediários Financeiros / Bancos,ON ERJ NM,http://www.bb.com.br/
+BBDC3,BRADESCO,Financeiro e Outros / Intermediários Financeiros / Bancos,ON N1,http://www.bradesco.com.br/
+BBDC4,BRADESCO,Financeiro e Outros / Intermediários Financeiros / Bancos,PN N1,http://www.bradesco.com.br/
+BBSE3,BBSEGURIDADE,Financeiro e Outros / Previdência e Seguros / Seguradoras,ON NM,http://www.bancodobrasilseguridade.com.br/
+BEEF3,MINERVA,Consumo não Cíclico / Alimentos Processados / Carnes e Derivados,ON NM,http://www.minervafoods.com/
+BPAC11,BTGP BANCO,Financeiro e Outros / Intermediários Financeiros / Bancos,UNT N2,http://ri.btgpactual.com/
+BRAP4,BRADESPAR,Materiais Básicos / Mineração / Minerais Metálicos,PN N1,http://www.bradespar.com/
+BRDT3,PETROBRAS BR,Petróleo. Gás e Biocombustíveis,ON NM,http://www.br.com.br/
+BRFS3,BRF SA,Consumo não Cíclico / Alimentos Processados / Carnes e Derivados,ON NM,http://www.brf-br.com
+BRKM5,BRASKEM,Materiais Básicos / Químicos / Petroquímicos,PNA N1,http://www.braskem.com.br/
+BRML3,BR MALLS PAR,Financeiro e Outros / Exploração de Imóveis,ON NM,http://www.brmalls.com.br/
+BTOW3,B2W DIGITAL,Consumo Cíclico / Comércio,ON ES NM,https://ri.b2w.digital/
+CCRO3,CCR SA,Bens Industriais / Transporte / Exploração de Rodovias,ON NM,http://www.grupoccr.com.br/
+CIEL3,CIELO,Financeiro e Outros / Serviços Financeiros Diversos / Serviços Financeiros Diversos,ON NM,http://ri.cielo.com.br
+CMIG4,CEMIG,Utilidade Pública / Energia Elétrica,PN N1,http://ri.cemig.com.br/
+COGN3,COGNA ON,Consumo Cíclico / Diversos / Serviços Educacionais,ON NM,http://ri.cogna.com.br/
+CPFE3,CPFL ENERGIA,Utilidade Pública / Energia Elétrica / Energia Elétrica,ON NM,https://cpfl.riweb.com.br/
+CRFB3,CARREFOUR BR,Consumo não Cíclico / Comércio e Distribuição / Alimentos,ON NM,https://www.grupocarrefourbrasil.com.br/
+CSAN3,COSAN,Petróleo. Gás e Biocombustíveis,ON NM,http://ri.cosan.com.br/
+CSNA3,SID NACIONAL,Materiais Básicos / Siderurgia e Metalurgia / Siderurgia,ON,http://ri.csn.com.br/
+CVCB3,CVC BRASIL,Consumo Cíclico / Viagens e Lazer / Viagens e Turismo,ON NM,https://www.cvc.com.br/
+CYRE3,CYRELA REALT,Consumo Cíclico / Construção Civil / Edificações,ON NM,http://www.cyrela.com.br/
+ECOR3,ECORODOVIAS,Bens Industriais / Transporte / Exploração de Rodovias,ON NM,http://www.ecorodovias.com.br/
+EGIE3,ENGIE BRASIL,Utilidade Pública / Energia Elétrica,ON NM,https://www.engie.com.br/
+ELET3,ELETROBRAS,Utilidade Pública / Energia Elétrica,ON N1,http://eletrobras.com/
+ELET6,ELETROBRAS,Utilidade Pública / Energia Elétrica,PNB N1,http://eletrobras.com/
+EMBR3,EMBRAER,Bens Industriais / Material de Transporte,ON NM,https://embraer.com/
+ENBR3,ENERGIAS BR,Utilidade Pública / Energia Elétrica,ON NM,http://www.edp.com.br/
+ENGI11,ENERGISA,Utilidade Pública / Energia Elétrica,UNT N2,http://grupoenergisa.com.br/
+EQTL3,EQUATORIAL,Utilidade Pública / Energia Elétrica,ON NM,http://www.equatorialenergia.com.br/
+FLRY3,FLEURY,Saúde / Serv.Méd.Hospit..Análises e Diagnósticos,ON NM,http://www.fleury.com.br/
+GGBR4,GERDAU,Materiais Básicos / Siderurgia e Metalurgia / Siderurgia,PN N1,https://www.gerdau.com/br/pt/home
+GNDI3,INTERMEDICA,Saúde / Serv.Méd.Hospit..Análises e Diagnósticos,ON NM,https://ri.gndi.com.br/
+GOAU4,GERDAU MET,Materiais Básicos / Siderurgia e Metalurgia / Siderurgia,PN N1,https://www.gerdau.com/br/pt/home
+GOLL4,GOL,Bens Industriais / Transporte / Transporte Aéreo,PN ES N2,https://www.voegol.com.br/
+HAPV3,HAPVIDA,Saúde / Serv.Méd.Hospit..Análises e Diagnósticos,ON ED NM,https://www.hapvida.com.br/
+HGTX3,CIA HERING,Consumo Cíclico / Tecidos. Vestuário e Calçados / Vestuário,ON NM,https://ciahering.com.br/
+HYPE3,HYPERA,Saúde / Comércio e Distribuição,ON NM,https://hyperapharma.com.br/
+IGTA3,IGUATEMI,Financeiro e Outros / Exploração de Imóveis,ON NM,https://iguatemi.com.br/
+IRBR3,IRBBRASIL RE,Financeiro / Previdência e Seguros / Seguradoras,ON NM,https://www.irbre.com
+ITSA4,ITAUSA,Financeiro e Outros / Intermediários Financeiros / Bancos,PN N1,http://www.itausa.com.br/
+ITUB4,ITAUUNIBANCO,Financeiro e Outros / Intermediários Financeiros / Bancos,PN N1,https://www.itau.com.br/
+JBSS3,JBS,Consumo não Cíclico / Alimentos Processados / Carnes e Derivados,ON NM,https://jbs.com.br/
+KLBN11,KLABIN S/A,Materiais Básicos / Papel e Celulose,UNT N2,https://www.klabin.com.br/
+LAME4,LOJAS AMERIC,Consumo Cíclico / Comércio,PN N1,https://www.americanas.com.br/
+LREN3,LOJAS RENNER,Consumo Cíclico / Comércio,ON NM,https://www.lojasrenner.com.br/
+MGLU3,MAGAZ LUIZA,Consumo Cíclico / Comércio,ON NM,https://www.magazineluiza.com.br/
+MRFG3,MARFRIG,Consumo não Cíclico / Alimentos Processados / Carnes e Derivados,ON NM,http://www.marfrig.com.br/
+MRVE3,MRV,Consumo Cíclico / Construção Civil / Edificações,ON NM,https://www.mrv.com.br/
+MULT3,MULTIPLAN,Financeiro e Outros / Exploração de Imóveis,ON N2,http://multiplan.com.br/
+NTCO3,NATURA,Consumo não Cíclico / Produtos de Uso Pessoal e de Limpeza,ON NM,https://www.natura.com.br/
+PCAR3,P.ACUCAR-CBD,Consumo não Cíclico / Comércio e Distribuição / Alimentos,ON ED NM,https://www.paodeacucar.com/
+PETR3,PETROBRAS,Petróleo. Gás e Biocombustíveis,ON N2,http://www.petrobras.com.br/
+PETR4,PETROBRAS,Petróleo. Gás e Biocombustíveis,PN N2,http://www.petrobras.com.br/
+QUAL3,QUALICORP,Saúde / Serv.Méd.Hospit..Análises e Diagnósticos,ON NM,https://www.qualicorp.com.br/
+RADL3,RAIADROGASIL,Saúde / Comércio e Distribuição,ON NM,https://www.rd.com.br/
+RAIL3,RUMO S.A.,Bens Industriais / Transporte / Transporte Ferroviário,ON NM,http://rumolog.com/
+RENT3,LOCALIZA,Consumo Cíclico / Aluguel de carros,ON NM,https://www.localizahertz.com/
+SANB11,SANTANDER BR,Financeiro e Outros / Intermediários Financeiros / Bancos,UNT,https://www.santander.com.br/
+SBSP3,SABESP,Utilidade Pública / Água e Saneamento,ON NM,http://sabesp.com.br/
+SULA11,SUL AMERICA,Financeiro / Previdência e Seguros / Seguradoras,UNT N2,https://ri.sulamerica.com.br/
+SUZB3,SUZANO S.A.,Materiais Básicos / Papel e Celulose,ON NM,http://www.suzano.com.br/
+TAEE11,TAESA,Utilidade Pública / Energia Elétrica,UNT N2,http://www.taesa.com.br
+TIMP3,TIM PART S/A,Telecomunicações,ON NM,https://www.tim.com.br/
+TOTS3,TOTVS,Tecnologia da Informação / Programas e Serviços,ON EDB NM,https://www.totvs.com/
+UGPA3,ULTRAPAR,Petróleo. Gás e Biocombustíveis,ON ED NM,http://www.ultra.com.br/
+USIM5,USIMINAS,Materiais Básicos / Siderurgia e Metalurgia / Siderurgia,PNA N1,https://www.usiminas.com/
+VALE3,VALE,Materiais Básicos / Mineração / Minerais Metálicos,ON NM,http://www.vale.com/
+VIVT4,TELEF BRASIL,Telecomunicações,PN,http://www.telefonica.com.br/
+VVAR3,VIAVAREJO,Consumo Cíclico / Comércio,ON NM,https://www.viavarejo.com.br/
+WEGE3,WEG,Bens Industriais / Máquinas e Equipamentos,ON NM,https://www.weg.net/
+YDUQ3,YDUQS PART,Consumo Cíclico / Serviços Educacionais,ON NM,https://www.yduqs.com.br/
+BOVA11,BOVESPA,Grupo Ações,Não info,https://ibovespa.com
+BOVA11,BOVESPA,Grupo Ações,Não info,https://ibovespa.com
