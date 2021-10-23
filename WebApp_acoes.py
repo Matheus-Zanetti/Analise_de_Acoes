@@ -19,6 +19,7 @@ df['Data'] = pd.to_datetime(df['Data'])
 
 st.header('WebApp Ações')
 
+
 st.write("""
 **Seja bem vindo(a) ao WebApp_acões!**
 
@@ -67,3 +68,14 @@ if len(choice_acoes) > 0:
     st.write('Nesse gráfico você encontrará a(s) taxa(s) de retorno das ação(ões) selecionada(s)')
     st.line_chart(dados_nomalizado)
 
+carregar_dados = st.sidebar.checkbox('Clique aqui para saber mais sobre as empresas analizadas!')
+
+#Dados das empresas
+info = pd.read_csv('Empresas.csv')
+info = info.drop(columns = ['Setor', 'Tipo'])
+info = info.drop(index= 76)
+if carregar_dados:
+    st.subheader('Informações das Empresas')
+    st.write('Nessa tabela de dados vocÊ encontra tanto o código correspondente da ação,'
+             'quanto o nome e o site da empresa')
+    dados = st.dataframe(info)
