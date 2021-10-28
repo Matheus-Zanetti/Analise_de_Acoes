@@ -1,49 +1,67 @@
-#Importar as bibliotecas
-import datetime
-import sqlite3
-import pandas as pd
-from datetime import date
 import streamlit as st
-import datetime as dt
-import numpy as np
+import pandas as pd
+import investpy as ip
+from datetime import datetime, timedelta
+import plotly.graph_objs as go
+
+countries = ['brazil', 'united states']
+interval = ['Daily', 'Weekly', 'Monthly']
+
+start_date = datetime.today() - timedelta(days=30)
+end_date = datetime.today()
+
+@st.cache
+def consultar_acao(stock, country, from_date, to_date, interval):
+    df = ip.get_stock_historical_data(stock=stock, country=country, from_date=from_date, to_date=to_date, interval=interval)
+    return df
+
+def format_date(dt, format='%d/%m/%Y'):
+    return dt.strftime(format)
+
+def plotCandleStick(df, acao='ticket'):
+    tracel = {
+        'x': df.index,
+        'open': df.Open,
+        'close': df.Close,
+        'high': df.High,
+        'low': df.Low,
+        'type': 'candlestick',
+        'name': acao,
+        'showlegend': False
+    }
+
+    data = [tracel]
+    layout = go.Layout()
+
+    fig = go.Figure(data=data, layout=layout)
+    return fig
+
+#Criando sidebar
+
+barra_lateral = st.sidebar.empty()
+
+country_seleção = st.sidebar.selectbox("Selecione o país:", countries)
+acoes = ip.get_stocks_list(country=country_seleção)
+stock_seleção = st.sidebar.selectbox("Selecione o ativo:", acoes)
+
+from_date = st.sidebar.date_input("De:", start_date)
+to_date = st.sidebar.date_input("De:", end_date)
+
+interval_seleção = st.sidebar.selectbox('Selecione o intervalo:', interval)
+
+#Elementos centrais da Pág
+st.title('Stock Monitor')
+st.header('Ações')
+
+st.subheader("Visualização gráfica")
+
+grafico_candle = st.empty()
+grafico_linha = st.empty()
+
+df = consultar_acao(stock_seleção, country_seleção, format_date(from_date), format_date(to_date), interval_seleção)
+fig = plotCandleStick(df)
+grafico_candle = st.plotly_chart(fig)
+grafico_linha = st.line_chart(df.Close)
 
 
-#Ler e tratar dados
-conn = sqlite3.connect('banco_acoes.db')
-df = pd.read_sql('SELECT * FROM acoes', con=conn)
-conn.close()
-
-df = df.drop(columns=['index'])
-df['Data'] = pd.to_datetime(df['Data'])
-
-
-st.header('WebApp Ações')
-
-st.subheader('Visualizar ações')
-
-acoes = df.columns[1:]
-
-st.sidebar.header('Parâmetros')
-choice_acoes = st.sidebar.multiselect('Selecione a sua ação', acoes)
-
-data = pd.to_datetime(df['Data'])
-min_data = pd.to_datetime(min(data))
-max_data = pd.to_datetime(max(data))
-
-data_start = st.sidebar.date_input('Data inicial', min_data)
-data_end = st.sidebar.date_input('Data final', max_data)
-
-start = pd.to_datetime(data_start)
-end = pd.to_datetime(data_end)
-
-intervalo_data = df[(df['Data'] >= start) & (df['Data'] <= end)]
-intervalo_data = intervalo_data.set_index('Data')
-
-dados = intervalo_data[choice_acoes]
-
-if data_end < data_start:
-    st.error('Data inicial maior que data final')
-
-if len(choice_acoes) > 0:
-    st.line_chart(dados)
 
